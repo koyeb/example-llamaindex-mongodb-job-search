@@ -43,7 +43,7 @@ Click the **Connect** button associated with your database and select **Drivers*
 
 Once you have a MongoDB database deployed, the fastest way to deploy the job search application is to click the [Deploy to Koyeb](https://www.koyeb.com/docs/build-and-deploy/deploy-to-koyeb-button) button below:
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=llamaindex-job-search&type=git&repository=koyeb%2Fllamaindex-mongodb-job-search&branch=main&builder=buildpack&env%5BOPENAI_API_KEY%5D=CHANGE_ME&env%5BMONGODB_URI%5D=CHANGE_ME&env%5BMONGODB_DATABASE%5D=jobs_db&env%5BMONGODB_VECTORS%5D=jobs_vectors&env%5BMONGODB_VECTOR_INDEX%5D=jobs_vectors_index&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=llamaindex-job-search&type=git&repository=koyeb%2Fexample-llamaindex-mongodb-job-search&branch=main&builder=buildpack&env%5BOPENAI_API_KEY%5D=CHANGE_ME&env%5BMONGODB_URI%5D=CHANGE_ME&env%5BMONGODB_DATABASE%5D=jobs_db&env%5BMONGODB_VECTORS%5D=jobs_vectors&env%5BMONGODB_VECTOR_INDEX%5D=jobs_vectors_index&ports=8000%3Bhttp%3B%2F)
 
 Open the **Environment variables** section and set the appropriate values for your application:
 
